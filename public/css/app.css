@@ -1,0 +1,124 @@
+.upper_block{
+    position: absolute;
+    width: 1118px;
+    height: 156px;
+    left: 161px;
+    top: 167px;
+
+    background: #C4C4C4;
+    border-radius: 27px;
+}
+
+.company_name {
+    position: relative;
+    width: 100%;
+    padding-bottom: 25%;
+    border-top-left-radius: var(--corner-radius-medium);
+    border-top-right-radius: var(--corner-radius-medium);
+}
+.middle_block{
+    position: absolute;
+    width: 629px;
+    height: 616px;
+    left: 161px;
+    top: 368px;
+
+    background: #7C7C7C;
+    border-radius: 32px
+}
+.profile_icon{
+    position: absolute;
+    width: 246px;
+    height: 313px;
+    left: 186px;
+    top: 405px;
+
+    background: #C4C4C4;
+    border-radius: 30px
+}
+.name{
+    position: absolute;
+    width: 240px;
+    height: 85px;
+    left: 492px;
+    top: 405px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #FFFFFF
+}
+.work_position{
+    position: absolute;
+    width: 301px;
+    height: 148px;
+    left: 461px;
+    top: 506px;
+
+    background: #C4C4C4;
+    border-radius: 14px
+}
+
+.side_block {
+    position: absolute;
+    width: 341px;
+    height: 596px;
+    left: 915px;
+    top: 366px;
+
+    background: #C4C4C4;
+    border-radius: 48px
+}
+.settings{
+    height: 3.2rem;
+    width: 3.2rem;
+    min-width: auto;
+}
+
+ .preloader{
+     position: fixed;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     background: black;
+     z-index: 3;
+     transition: 1s all;
+     opacity: 1;
+     visibility: visible;
+ }
+.loader{
+    width: 75px;
+    height: 75px;
+    border: 10px solid white;
+    border-radius: 50%;
+    border-top-color: blue;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-animation: 1s spin infinite linear;
+            animation: 1s spin infinite linear;
+}
+
+ @-webkit-keyframes spin {
+     from {
+         transform: translate(-50%, -50%) rotate(0deg);
+     }
+     to {
+         transform: translate(-50%, -50%) rotate(360deg);
+     }
+ }
+
+ @keyframes spin {
+     from {
+         transform: translate(-50%, -50%) rotate(0deg);
+     }
+     to {
+         transform: translate(-50%, -50%) rotate(360deg);
+     }
+ }
+
